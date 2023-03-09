@@ -3,7 +3,7 @@ Open-source code for "RELIANT: Fair Knowledge Distillation for Graph Neural Netw
 
 ## Citation
 
-If you find it useful, please cite our paper. Thank you!
+If you find **our code** and the **new datasets (folders named small and medium) for fairness research on graphs** useful, please cite our paper. Thank you!
 
 ```
 @inproceedings{dong2023reliant,
