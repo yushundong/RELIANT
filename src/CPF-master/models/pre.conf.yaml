@@ -1,0 +1,1208 @@
+ind: 
+  GCN: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 5
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 8
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 6
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.201
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 5
+      emb_dim: 8
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.8
+      beta: 1
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 6
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+  GAT: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 5
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 5
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 6
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.2
+      attn_drop: 0.5
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.5
+      beta: 1
+      lr: 0.01
+      wd: 0.01
+  APPNP: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 5
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.2
+      beta: 5
+      lr: 0.005
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 7
+      emb_dim: 64
+      feat_drop: 0.2
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.0005
+    amazon_electronics_photo: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.8
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+  GraphSAGE: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    german: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    medium: 
+      num_layers: 5
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 9
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 7
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 9
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.2
+      attn_drop: 0.5
+      beta: 0
+      lr: 0.01
+      wd: 0.0005
+    amazon_electronics_photo: 
+      num_layers: 9
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.8
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+  SGC: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 5
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 10
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 9
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.0005
+    amazon_electronics_photo: 
+      num_layers: 6
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+  
+  GCNII: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 8
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 9
+      emb_dim: 8
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 7
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.5
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+  GLP: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 5
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 5
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+tra: 
+  GCN: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 6
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 5
+      emb_dim: 8
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.8
+      beta: 1
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 5
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+  
+  GAT: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 5
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 10
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 9
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.2
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.5
+      beta: 1
+      lr: 0.01
+      wd: 0.0005
+  APPNP: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 6
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.2
+      beta: 5
+      lr: 0.01
+      wd: 0.0005
+    amazon_electronics_computers: 
+      num_layers: 7
+      emb_dim: 64
+      feat_drop: 0.2
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.005
+      wd: 0.0005
+    amazon_electronics_photo: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.5
+      beta: 0
+      lr: 0.001
+      wd: 0.001
+  GraphSAGE: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    citeseer: 
+      num_layers: 10
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.5
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 9
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+  SGC: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 9
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 6
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 5
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.2
+      attn_drop: 0.8
+      beta: 0
+      lr: 0.01
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 7
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+  GCNII: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 8
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 8
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 5
+      emb_dim: 8
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_computers: 
+      num_layers: 7
+      emb_dim: 64
+      feat_drop: 0.5
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+    amazon_electronics_photo: 
+      num_layers: 7
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      lr: 0.001
+      wd: 0.01
+  GLP: 
+    bail: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    german: 
+      num_layers: 8
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    credit: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    small: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    medium: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    raw: 
+      num_layers: 10
+      emb_dim: 64
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    cora: 
+      num_layers: 6
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    citeseer: 
+      num_layers: 7
+      emb_dim: 32
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
+    pubmed: 
+      num_layers: 9
+      emb_dim: 16
+      feat_drop: 0.8
+      attn_drop: 0.2
+      beta: 0
+      lr: 0.001
+      wd: 0.01
